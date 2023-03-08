@@ -1,0 +1,25 @@
+body{
+    background-color: #1c1c1c;
+}
+
+.h1Class{
+    color: #13de2d;
+    /* background-color: black; */
+}
+.input-output{
+    color: #13de2d;
+}
+.textArea{
+    background-color: black;
+    color: #13de2d;
+}
+.btn-cus{
+    color: #13de2d;
+    border: 1px solid;
+    font-weight: 600;
+}
+.btn-cus:hover{
+    background: #13de2d;
+    color: black;
+    font-weight: 600;
+}

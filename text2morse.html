@@ -1,0 +1,43 @@
+<!Doctype html>
+<html>
+
+	<head>
+		<title> Text to Morse Converter </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">	
+		<link rel="stylesheet" href="style.css">	
+	</head>
+
+	<body>
+	
+		<div class="row">
+			<h1 class="col-8 h1Class">RiffCode Converter</h1>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<button id="toggle" class="btn btn-outline-primary btn-cus" onclick="toggle()">Decrypt Message</button>
+			</div>			
+		</div>		
+		
+		<hr>
+		
+		<div class="container d-flex justify-content-around align-items-center">
+		
+			<div>
+				<b class="input-output">Input</b><br>
+				<textarea id="input" cols="50" rows="20" placeholder="Write your message" class="textArea"></textarea>
+			</div>
+			
+			<button id="convert" class="btn btn-md px-3 btn-outline-dark btn-cus" onclick="text2morse()">Convert to Morse Code</button>
+			
+			<div>
+				<b class="input-output">Output</b><br>
+				<textarea id="output" cols="50" rows="20"class="textArea"></textarea>
+			</div>
+		
+		</div>
+		
+		<script src="main.js"></script>
+	
+	</body>
+	
+
+
+</html>
